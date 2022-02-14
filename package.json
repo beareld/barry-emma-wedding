@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --base-href /barry-emma-wedding --deploy-url https://beareld.github.io/barry-emma-wedding/ && ng deploy --no-build"
   },
   "private": true,
   "dependencies": {
